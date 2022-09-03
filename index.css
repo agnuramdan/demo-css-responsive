@@ -2,9 +2,19 @@ body {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 
-.navbar {
+nav.navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: saddlebrown;
+  gap: 10px;
+}
+
+.nav-item {
+  color: bisque;
+  padding: 10px;
 }
