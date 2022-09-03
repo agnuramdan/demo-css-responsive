@@ -52,3 +52,18 @@ h1.web-title {
   padding: 10px;
   color: aliceblue;
 }
+
+@media (max-width: 1200px) {
+  body {
+    background-color: bisque;
+  }
+
+  nav.navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+}
